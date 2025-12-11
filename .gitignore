@@ -26,3 +26,7 @@ node_modules/
 *.log
 *.tmp
 .cache/
+
+.spec-workflow
+.claude
+.serena
