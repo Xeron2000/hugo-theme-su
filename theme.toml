@@ -1,0 +1,17 @@
+name = "Su"
+license = "MIT"
+licenselink = "https://github.com/Xeron2000/hugo-theme-su/blob/main/LICENSE"
+description = "Su (素) - A minimalist, text-only Hugo theme with dark mode. Clean, elegant, and distraction-free reading experience."
+homepage = "https://github.com/Xeron2000/hugo-theme-su"
+demosite = "https://blog.040304.xyz"
+tags = ["blog", "minimal", "minimalist", "dark", "simple", "clean", "text", "responsive", "personal"]
+features = ["blog", "dark mode", "syntax highlighting", "code copy", "responsive design", "minimal design"]
+min_version = "0.112.0"
+
+[author]
+  name = "Xeron"
+  homepage = "https://blog.040304.xyz"
+
+[original]
+  name = "Xeron"
+  homepage = "https://blog.040304.xyz"

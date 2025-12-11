@@ -1,0 +1,11 @@
+- name: "Hugo"
+  url: "https://gohugo.io"
+  desc: "The world's fastest framework for building websites"
+
+- name: "GitHub"
+  url: "https://github.com"
+  desc: "Where the world builds software"
+
+- name: "Example Blog"
+  url: "https://example.com"
+  desc: "An example friend link"

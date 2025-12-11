@@ -1,0 +1,19 @@
+baseURL: "https://example.com"
+languageCode: "zh-CN"
+title: "Su 素"
+# When running from exampleSite, theme is in parent directory
+themesDir: "../../"
+theme: "Su"
+
+params:
+  about:
+    title: "关于我"
+    content: |
+      这是一个使用 **Su** 主题的示例博客。
+
+      Su (素) 是一个极简主义的 Hugo 主题，专注于内容本身。
+
+      - 纯文字设计
+      - 深色主题
+      - 响应式布局
+      - 代码高亮

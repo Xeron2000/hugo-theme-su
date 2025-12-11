@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ if .Site.Params.about }}
+<div class="about-section">
+    <h2>{{ .Site.Params.about.title }}</h2>
+    <div>{{ .Site.Params.about.content | markdownify }}</div>
+</div>
+{{ end }}
+
+{{ if site.Data.friends }}
+<div class="about-section">
+    <h2>友情链接</h2>
+    <ul class="friends-list">
+        {{ range site.Data.friends }}
+        <li class="friend-item">
+            <a href="{{ .url }}" target="_blank">[ {{ .name }} ]</a>
+            <span class="friend-desc">— {{ .desc }}</span>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}
+{{ end }}

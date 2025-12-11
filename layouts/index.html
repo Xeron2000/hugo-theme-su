@@ -1,0 +1,10 @@
+{{ define "main" }}
+<ul class="archive-list">
+    {{ range (where .Site.RegularPages "Type" "posts") }}
+    <li class="archive-item">
+        <span class="archive-date">{{ .Date.Format "2006-01-02" }}</span>
+        <a href="{{ .Permalink }}" class="archive-title">{{ .Title }}</a>
+    </li>
+    {{ end }}
+</ul>
+{{ end }}
