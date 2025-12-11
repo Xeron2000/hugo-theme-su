@@ -16,7 +16,7 @@ A minimalist, text-only Hugo theme with dark mode.
 
 ## Demo
 
-https://blog.040304.xyz
+https://xeron2000.github.io/hugo-theme-su/
 
 ## Installation
 

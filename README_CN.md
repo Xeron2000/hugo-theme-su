@@ -16,7 +16,7 @@
 
 ## 演示
 
-https://blog.040304.xyz
+https://xeron2000.github.io/hugo-theme-su/
 
 ## 安装
 
