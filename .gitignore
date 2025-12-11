@@ -3,6 +3,9 @@ public/
 resources/
 .hugo_build.lock
 
+# Example site themes (created by CI)
+exampleSite/themes/
+
 # OS files
 .DS_Store
 Thumbs.db
